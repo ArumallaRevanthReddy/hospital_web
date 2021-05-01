@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor</title>
+    <link rel="stylesheet" href="hospital.css">
+    <script src="hospital.js"></script>
+</head>
+
+<body>
+    <div id="form">
+        <form action="welcome.html">
+            <label for="first_name">First Name</label><br>
+            <input type="text", id="first_name", name="first_name", placeholder="first name..."><br>
+
+            <label for="middle_name">Middle Name</label><br>
+            <input type="text", id="middle_name", name="middle_name", placeholder=""><br>
+
+            <label for="last_name">Last Name</label><br>
+            <input type="text", id="last_name", name="last_name", placeholder=""><br>
+
+            <label for="reg_no">Registration number</label><br>
+            <input type="number", id="reg_no", name="reg_no", placeholder=""><br>
+
+            <label for="dob">Date of Birth</label><br>
+            <input type="date", id="dob", name="dob", placeholder=""><br>
+
+            <p>Select your gender</p>
+            <input type="radio", id="male", name="gender", value="male">
+            <label for="male">Male</label>
+            <input type="radio", id="female", name="gender", value="female">
+            <label for="male">Female</label>
+            <input type="radio", id="others", name="gender", value="others">
+            <label for="male">Others</label><br>
+            <br>
+
+            <label for="qualification">Qualification</label><br>
+            <input type="text", id="qualification", name="qualification", placeholder=""><br>
+
+            <label for="phone">Contact no</label><br>
+            <input type="number", id="phone", name="phone", placeholder=""><br>
+
+            <label for="address">Address</label><br>
+            <input type="text", id="address", name="address", placeholder=""><br>
+
+            <label for="visiting_time">Visiting time</label><br>
+            <select id="visiting_time", name="visiting_time", placeholder="">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select><br>
+
+            <label for="visiting_day">Visiting day</label><br>
+            <select id="visiting_day", name="visiting_day", placeholer="">
+                <option value="sunday">Sunday</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+            </select><br>
+
+            <label for="noppd">No of patients/day</label><br>
+            <input type="number", id="noppd", name="noppd", placeholder=""><br>
+
+            <label for="dept_no">Department number</label><br>
+            <input type="number", id="dept_no", name="dept_no", placeholder=""><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+</body>
+</html>
